@@ -1,0 +1,31 @@
+body{
+    font-family: Arial, helvetica, sans-serif;
+}
+
+
+nav li a:link {
+    color: rgb(138,111,111);
+    text-decoration: none;
+    background-color: rgb(252,184,184);
+    display: block;
+    width: 200px;
+    border: 1px solid white;
+}
+
+nav li a:hover,active{
+    background-color: red;
+    color: white;
+}
+
+.tagelement{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    background-color: lightgray;
+    box-sizing: border-box;;
+    width: 49%;
+    height: 150px;
+    margin: 5px;
+    padding: 50px;
+    text-align: center;
+    float: left;
+}
